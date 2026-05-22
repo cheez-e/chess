@@ -1,0 +1,36 @@
+:root{
+    --board-side: 1024px;
+    --square-side: 128px;
+}
+body {
+    background-color: #121212;
+    color: #ffffff;
+  }
+.parent {
+    display: grid;
+    justify-content: center;
+}
+h1{
+    font-size: 52px;
+}
+.board {
+    display: flex;
+    flex-wrap: wrap;
+    width: var(--board-side);
+    height: var(--board-side);
+    background-color: aquamarine;
+}
+.dark-square {
+    display: flex;
+    justify-content: center;
+    width: var(--square-side);
+    height: var(--square-side);
+    background-color: #02343F;
+}
+.light-square {
+    display: flex;
+    justify-content: center;
+    width: var(--square-side);
+    height: var(--square-side);
+    background-color: #F0EDCC;
+}
