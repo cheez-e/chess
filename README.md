@@ -2,5 +2,6 @@
 
 Plan
 1. render board
-2. move pieces
-3. calculate legal moves
+  a. push code
+3. move pieces
+5. calculate legal moves
